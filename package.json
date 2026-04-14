@@ -1,0 +1,23 @@
+{
+  "name": "grpc-nodejs-demo",
+  "version": "1.0.0",
+  "description": "This is a demonstration of the gRPC protocol used in microservices in expressjs servers",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "start:user": "npm run start -w user-service",
+    "start:premium": "npm run start -w premium-service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskganesh21/gRPC-nodejs-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mskganesh21/gRPC-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/mskganesh21/gRPC-nodejs-demo#readme"
+}
