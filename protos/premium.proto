@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package premium;
+
+service PremiumService {
+  rpc IsUserPremium (PremiumRequest) returns (PremiumResponse);
+}
+
+message PremiumRequest {
+  int32 userId = 1;
+}
+
+message PremiumResponse {
+  bool isPremium = 1;
+}
